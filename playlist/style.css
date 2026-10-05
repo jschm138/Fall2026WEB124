@@ -1,0 +1,62 @@
+/* Jason Schmitz 10/4/2026 Week 5 Song Playlist */
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #102030;
+  color: white;
+}
+
+main {
+  max-width: 600px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 6px;
+  border: 1px solid #6c91ad;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #147d64;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0d5947;
+}
+
+#playlistContainer {
+  border: 2px dashed red;
+  padding: 20px;
+  background-color: #19394d;
+  border-radius: 6px;
+}
+
+.songCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #285a75;
+  border: 1px dashed red;
+  border-radius: 18px;
+}
+
+.deleteBtn {
+  background-color: #b92e45;
+}
+
+.deleteBtn:hover {
+  background-color: #8c2033;
+}
