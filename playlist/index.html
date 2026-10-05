@@ -1,0 +1,49 @@
+<!-- Jason Schmitz 10/4/2026 Week 5 Song Playlist -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4-Song Playlist Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="playlist.js" defer></script>
+</head>
+<body>
+
+  <main>
+    <h2>My Favorite Songs</h2>
+
+    <section class="inputGroup">
+      <input type="text" id="songTitle" placeholder="Song Title">
+      <input type="text" id="songArtist" placeholder="Artist">
+      <button type="button" id="addBtn">Add Song</button>
+	  <button type="button" id="clearBtn">Clear All</button>
+    </section>
+
+    <section id="playlistContainer">
+
+      <article class="songCard">
+        <span>Livin On A Prayer - Bon Jovi</span>
+        <button class="deleteBtn">Delete</button>
+      </article>
+	  
+	  <article class="songCard">
+        <span>Thunderstruck - AC/DC</span>
+        <button class="deleteBtn">Delete</button>
+      </article>
+	  
+	  <article class="songCard">
+        <span>Hi Ren - Ren</span>
+        <button class="deleteBtn">Delete</button>
+      </article>
+	  
+	  <article class="songCard">
+        <span>Carry On Wayward Son - Kansas</span>
+        <button class="deleteBtn">Delete</button>
+      </article>
+     
+    </section>
+  </main>
+
+</body>
+</html>
