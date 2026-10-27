@@ -1,0 +1,209 @@
+/* Jason Schmitz 10/26/2026 Final Assignment Birria Tacos */
+
+body {
+  background-color: #161616;
+  color: #eeeeee;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+header {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: #f59e42;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #f59e42;
+}
+
+h3 {
+  color: #f59e42;
+}
+
+nav a {
+  background-color: #006b73;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #00858f;
+}
+
+a {
+  color: #70c9be;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+section {
+  background-color: #242424;
+  border: 1px solid #f59e42;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#intro {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#intro div {
+  flex: 1;
+  margin-left: 20px;
+  min-width: 200px;
+}
+
+#intro h2 {
+  background-color: #f59e42;
+  color: #161616;
+  margin-bottom: 12px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+#intro p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+#ingredientHeading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#recipeSize button {
+  margin-left: 6px;
+}
+
+#recipeSize .selected {
+  background-color: #777777;
+  color: #161616;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+#ingredientList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+#ingredientList li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+}
+
+#ingredientList button {
+  margin-left: 10px;
+}
+
+#assemblyList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+#assemblyList li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+}
+
+#assemblyList button {
+  margin-left: 10px;
+}
+
+#groceryList {
+  list-style: none;
+  padding: 0;
+}
+
+#groceryList li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#groceryList button {
+  margin-left: 10px;
+}
+
+label {
+  margin-right: 6px;
+}
+
+input {
+  background-color: #333333;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  padding: 8px;
+}
+
+button {
+  background-color: #f59e42;
+  border: none;
+  border-radius: 4px;
+  color: #161616;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+button:hover {
+  background-color: #ffc078;
+}
+
+.removeBtn {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.removeBtn:hover {
+  background-color: #bd2130;
+}
+
+footer {
+  color: #bbbbbb;
+  margin-top: 25px;
+  text-align: center;
+}
