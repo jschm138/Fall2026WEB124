@@ -185,10 +185,10 @@ function handleGroceryClick(event) {
 pageAddress.textContent = `Page address: ${window.location.href}`;
 
 if (navigator.onLine) {
-	connectionStatus.textContent = "You are online.";
+	connectionStatus.textContent = "You are online";
 } else {
 	connectionStatus.textContent =
-		"You are offline. An internet connection is needed to open the original recipe.";
+		"You are offline... An internet connection is needed to open the original recipe";
 }
 
 const savedItem = localStorage.getItem("extraItem");
